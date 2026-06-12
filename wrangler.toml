@@ -1,8 +1,6 @@
-#:schema node_modules/wrangler/config-schema.json
+```toml
 name = "welisnew2"
 compatibility_date = "2024-11-01"
-pages_build_output_dir = ".next"
 
-[[services]]
-binding = "WORKER_SELF_REFERENCE"
-service = "welisnew2"
+pages_build_output_dir = ".vercel/output/static"
+```
